@@ -607,7 +607,7 @@ footer {
     margin: auto;
     position: fixed;
     top: 0;
-    left: 50%; /* Set left to 50% */
+    left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 1200px;
@@ -615,27 +615,31 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-right: 40px;
+    
+    // background-color: red;
     .logo {
-      width: 200px;
+      width: 15%;
       height: 80px;
       // background-color: green;
       display: flex;
       justify-content: center;
       align-items: center;
       img {
-        width: 200px;
+        width: 100%;
       }
     }
     .menu {
       position: relative;
 
       transform: translateX(0%);
-      //   background-color: red;
-      width: 800px;
+        // background-color: paleturquoise;
+      width: 70%;
       max-width: 800px;
       //   padding-right: 50px;
       ul {
+        // background-color: palevioletred;
         flex-direction: row;
+        width: 100%;
         gap: 20px;
         .closedLi {
           display: none;

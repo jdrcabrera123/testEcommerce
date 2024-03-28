@@ -550,7 +550,7 @@ footer .bx:hover {
     margin: auto;
     position: fixed;
     top: 0;
-    left: 50%; /* Set left to 50% */
+    left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 1200px;
@@ -560,23 +560,24 @@ footer .bx:hover {
     padding-right: 40px;
   }
   nav .logo {
-    width: 200px;
+    width: 15%;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   nav .logo img {
-    width: 200px;
+    width: 100%;
   }
   nav .menu {
     position: relative;
     transform: translateX(0%);
-    width: 800px;
+    width: 70%;
     max-width: 800px;
   }
   nav .menu ul {
     flex-direction: row;
+    width: 100%;
     gap: 20px;
   }
   nav .menu ul .closedLi {
