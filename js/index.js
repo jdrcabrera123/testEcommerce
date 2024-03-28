@@ -14,12 +14,14 @@ showMenu.addEventListener("click", () => {
 //   menu.classList.remove("showMenu");
 // });
 
-
-
 const logout = document.querySelector("#logout");
 
 logout.addEventListener("click", () => {
   alert("Good bye");
   localStorage.removeItem("login_sucess");
   window.location.href = "login.html";
+});
+
+window.addEventListener("scroll", () => {
+  menu.classList.remove("showMenu");
 });
