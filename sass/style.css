@@ -545,6 +545,15 @@ footer .bx:hover {
   transform: scale(1.2);
 }
 
+.linkAfter {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.linkAfter .textAfter {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   nav {
     margin: auto;

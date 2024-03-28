@@ -601,6 +601,15 @@ footer {
   }
 }
 
+.linkAfter {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  .textAfter {
+    text-align: center;
+  }
+}
+
 // ---------------------------- @media (min-width: 768px)
 @media (min-width: 768px) {
   nav {
@@ -615,7 +624,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-right: 40px;
-    
+
     // background-color: red;
     .logo {
       width: 15%;
@@ -632,7 +641,7 @@ footer {
       position: relative;
 
       transform: translateX(0%);
-        // background-color: paleturquoise;
+      // background-color: paleturquoise;
       width: 70%;
       max-width: 800px;
       //   padding-right: 50px;
