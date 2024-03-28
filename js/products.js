@@ -4,7 +4,7 @@ const productsTosell = [
     productName: "PC ONE",
     price: 1500,
     quantity: 1,
-    imgProduct: "../img/img_PC.png",
+    imgProduct: "./img/img_PC.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -12,7 +12,7 @@ const productsTosell = [
     productName: "PC TWO",
     price: 1200,
     quantity: 1,
-    imgProduct: "../img/img_PC2.png",
+    imgProduct: "./img/img_PC2.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -20,7 +20,7 @@ const productsTosell = [
     productName: "PC THREE",
     price: 1800,
     quantity: 1,
-    imgProduct: "../img/img_PC3.png",
+    imgProduct: "./img/img_PC3.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -28,7 +28,7 @@ const productsTosell = [
     productName: "PC FOUR",
     price: 1900,
     quantity: 1,
-    imgProduct: "../img/img_PC4.png",
+    imgProduct: "./img/img_PC4.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -36,7 +36,7 @@ const productsTosell = [
     productName: "LAPTOP ONE",
     price: 2500,
     quantity: 1,
-    imgProduct: "../img/img_laptop.png",
+    imgProduct: "./img/img_laptop.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -44,7 +44,7 @@ const productsTosell = [
     productName: "LAPTOP TWO",
     price: 2800,
     quantity: 1,
-    imgProduct: "../img/img_laptop2.png",
+    imgProduct: "./img/img_laptop2.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -52,7 +52,7 @@ const productsTosell = [
     productName: "LAPTOP THREE",
     price: 3400,
     quantity: 1,
-    imgProduct: "../img/img_laptop3.png",
+    imgProduct: "./img/img_laptop3.png",
     description: "This is the new arrival, it's made for you",
   },
   {
@@ -60,7 +60,7 @@ const productsTosell = [
     productName: "LAPTOP FOUR",
     price: 5500,
     quantity: 1,
-    imgProduct: "../img/img_laptop4.png",
+    imgProduct: "./img/img_laptop4.png",
     description: "This is the new arrival, it's made for you",
   },
 ];
