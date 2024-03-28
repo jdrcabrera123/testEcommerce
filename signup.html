@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="sass/signup.css" />
+  </head>
+  <body>
+    <section>
+      <form id="signupForm">
+        <h2>Sign up</h2>
+        <label>Name</label>
+        <input
+          type="text"
+          placeholder="Your name"
+          id="name"
+          required
+          autofocus
+        />
+        <label>email</label>
+        <input type="email" placeholder="Email" id="email" required />
+        <label>Password</label>
+        <input type="password" placeholder="password" id="password" required />
+        <input type="submit" value="Sign Up" id="login" />
+        <p><a href="login.html">¿Ya tienes una cuenta?</a></p>
+      </form>
+
+      <div class="imgBg">
+        <img src="img/WomanForm-01.png" alt="" />
+      </div>
+    </section>
+
+    <script src="js/signup.js"></script>
+  </body>
+</html>

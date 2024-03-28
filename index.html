@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="sass/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "dIsRp29XvEMsyJwVu",
+        });
+      })();
+    </script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Menu section -->
+    <nav>
+      <div class="logo">
+        <a href=""><img src="img/logo.png" alt="" /></a>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="" class="closedLi"></a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="#shopContent">Products</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#us">Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button id="logout">Logout</button>
+        </ul>
+      </div>
+      <div class="btnSession">
+        <div class="cart-btn" id="cart-btn">🛒</div>
+        <span class="cart-counter" id="cart-counter">0</span>
+      </div>
+      <span class="material-symbols-outlined"> menu </span>
+    </nav>
+
+    <!-- Carousel section -->
+
+    <section class="carousel">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide img1"></div>
+          <div class="swiper-slide img2"></div>
+          <div class="swiper-slide img3"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <!-- Products section -->
+    <div class="titles">
+      <p>Wonderful discounts and benefits for your company</p>
+    </div>
+
+    <div class="sectionThree card-products-container" id="shopContent"></div>
+
+    <section class="modal-overlay" id="modal-overlay"></section>
+    <section class="modal-container" id="modal-container"></section>
+
+    <!-- blog section -->
+
+    <hr />
+    <div class="titles">
+      <p>Stay informed on our Blog</p>
+    </div>
+
+    <section class="blogSection" id="blog"></section>
+
+    <!-- Us section -->
+
+    <hr />
+
+    <section class="us" id="us">
+      <div class="imgUs"></div>
+      <div class="usDescription">
+        <div class="titles">
+          <p class="titleVariation">Who are we?</p>
+        </div>
+        <p>
+          At Biz Computers, our mission is to transcend the boundaries of
+          innovation and quality to provide solutions that inspire and transform
+          people's lives. We are committed to leading with vision and passion,
+          anticipating the needs of tomorrow, and exceeding expectations at
+          every step of the way. Our vision is to be the catalyst for positive
+          change in the industry, leaving a lasting footprint as we move towards
+          a brighter and more sustainable future for all.
+        </p>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <hr />
+
+    <section class="contactContainer" id="contact">
+      <div class="imgContact"></div>
+      <section id="contact" class="">
+        <h2 class="titles">Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label> <br />
+            <input type="text" id="name" name="user_name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">email</label> <br />
+            <input type="email" id="email" name="user_email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone</label> <br />
+            <input type="number" id="phone" name="contact_number" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label> <br />
+            <input type="text" id="subject" name="subject" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label> <br />
+            <textarea name="message" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" onclick="sendMail()">Send</button>
+        </form>
+      </section>
+    </section>
+
+    <!-- Footer section -->
+
+    <hr />
+    <footer id="footer">
+      <a href="https://www.instagram.com/bizcomputers/" target="_blank">
+        <i class="bx bxl-instagram"></i>
+      </a>
+
+      <a href="https://twitter.com/bizcomputers?lang=es" target="_blank">
+        <i class="bx bxl-twitter"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/company/biz-computers/?trk=ppro_cprof&originalSubdomain=co"
+        target="_blank"
+      >
+        <i class="bx bxl-linkedin"></i>
+     
+    </footer>
+
+    <!-- Scripts -->
+    <section class="formSection"></section>
+
+    <script src="js/index.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/productIndex.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/blogSection.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <script src="js/form.js"></script>
+  </body>
+</html>
