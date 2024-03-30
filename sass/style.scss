@@ -12,15 +12,17 @@ $bgForm: #2b26bf0c;
 }
 
 nav {
-  background-color: whites;
+  background-color: white;
   display: flex;
   justify-content: end;
   align-items: center;
   height: 80px;
-  position: relative;
+  position: fixed;
   padding: 10px;
   margin: auto;
-
+  width: 100%;
+  top: 0;
+  left: 0;
   z-index: 10;
 
   .logo {
@@ -105,11 +107,11 @@ nav {
       display: none;
       position: absolute;
       right: 10px;
-      top: 50%;
+      top: 65%;
       background-color: red;
       width: 20px;
       height: 20px;
-      font-size: 12px;
+      font-size: 10px;
       color: white;
       text-align: center;
       line-height: 20px;
@@ -341,13 +343,18 @@ nav {
     .product {
       // background-color: yellow;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       margin-top: 10px;
       margin-bottom: 10px;
       .product-img {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
+      }
+      h4{
+        width: 50px;
+        // background-color: red;
+        font-size: 14px;
       }
       .quantity {
         // background-color: palegreen;
